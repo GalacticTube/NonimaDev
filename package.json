@@ -1,0 +1,24 @@
+{
+  "name": "Nonimabetaheh",
+  "version": "0.1.0",
+  "description": "Nonima cuttest and useful bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "NJ3ZNAY0MY",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.0.2",
+    "enmap": "^5.2.4",
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^2.0.0"
+  }
+}
