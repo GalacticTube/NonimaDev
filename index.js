@@ -8,10 +8,6 @@ const client = new Client({
 client.commands = new Collection();
 client.aliases = new Collection();
 
-config({
-    path: __dirname + "/.env"
-});
-
 // Run the command loader
 ["command"].forEach(handler => {
     require(`./handlers/${handler}`)(client);
